@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.tabelaKont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    align-items: flex-start;
+    padding: 3rem 3rem;
+    justify-content: space-evenly;
+    height: 47.3rem;
+}
+
+.div-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-rezultat {
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-color: #a3072e;
+    color: #CDFBE4;
+    font-size: 5vh;
+    padding: 0 1rem 0 .5rem;
+}
+
+.rezultat {
+    color: #cdfbe4ba;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 1rem 0 .5rem;
+}
+
+.prikazX {
+    color: chartreuse;
+    padding-left: 5rem;
+    font-size: 3rem;
+}
+
+.prikazO {
+    color: darkorange;
+    padding-left: 4.6rem;
+    font-size: 3rem;
+}
+
+.rezultatX {
+    padding-left: 5rem;
+}
+
+.rezultatO {
+    padding-left: 5rem;
+}
+
+
+input {
+    width: 12rem;
+    height: 12rem;
+}
+
+.polje img {
+    width: 100%;
+    height: 100%;
+}
+
+.reset {
+    border: 3px solid #a3072e;
+    border-radius: 15px;
+    width: 7rem;
+    height: 6rem;
+    font-size: 2.2rem;
+    color: #007bff;
+    margin-right: 4rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.resetRezultata {
+    border: 3px solid #a3072e;
+    border-radius: 15px;
+    width: 10rem;
+    height: 6rem;
+    font-size: 2.2rem;
+    color: #007bff;
+    line-height: 2.2rem;
+    padding: 0.5rem;
+}
+
+.reset:hover,
+.resetRezultata:hover {
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+.div-dugmici {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iksokstabela {
+    background-color: #a3072e;
+    width: 35rem;
+    height: 35rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+td:first-child,
+th:first-child {
+    border-left: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td,
+th {
+    border-left: solid 5px black;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr {
+    border-bottom: solid 5px black;
+}
+
+th {
+    margin-left: 5vh;
+}
