@@ -10,7 +10,7 @@ ____________
 - Click reset score to reset the overall game score
 - Have fun :)
 
-Additinal features:
+Additional features:
 ___________________
 - Keyboard num presses from 1 to 9 correspond to clicking the fields.
 
